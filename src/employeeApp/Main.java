@@ -12,7 +12,13 @@ public class Main
      */
     private static void workWithData ()
     {
+        Company company = new Company(1, "Workintech", -1, new String[]{"ilyas"});
+        Employee employee = new Employee(1, "İlyas Koç", "ilyaskoc@wit.com.tr", "123456", new String[]{"deneme1"});
+        Healthplan healthplan = new Healthplan(1, "rümeysa", Plan.NAME);
 
+        System.out.println(company.toString());
+        System.out.println(employee.toString());
+        System.out.println(healthplan.toString());
     }
 
     /**
